@@ -1,0 +1,27 @@
+.color-danger {
+  color: var(--ion-color-danger);
+}
+
+.description-length {
+  display: block;
+  text-align: right;
+  font-weight: 600;
+}
+
+small {
+  padding: 0;
+  margin: 0;
+}
+
+ion-item {
+  --padding-start: 0;
+  --padding-end: 0;
+}
+
+.task__icon-close {
+  position: absolute;
+  right: 0.5em;
+  top: -1.4em;
+  z-index: 1000;
+  font-size: 2em;
+}
